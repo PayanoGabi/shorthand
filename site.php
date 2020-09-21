@@ -189,12 +189,14 @@
                  <br>
 
                  <form class="" action="site.php" method="get">
-                   True or False :<input type="checkbox" name="TrueorFalse">
+                   Chhecked True:<input type="checkbox" name="checkedTrue">
+                   False:<input type="checkbox" name="checkedFalse">
                    <input type= "submit">
                  </form>
 
                  <?php
                  $yesNO = false;
+                 
 
 
 
